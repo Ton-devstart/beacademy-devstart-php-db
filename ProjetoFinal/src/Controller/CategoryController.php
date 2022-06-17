@@ -74,7 +74,7 @@ class CategoryController extends AbstractController
         $query = "SELECT * FROM category WHERE id='{$id}'";
 
         $result = $con->prepare($query);
-            $result->execute();
+        $result->execute();
 
         $data = $result->fetch(\PDO::FETCH_ASSOC);
 

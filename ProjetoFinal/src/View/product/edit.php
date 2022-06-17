@@ -7,8 +7,6 @@
 ?>
 
 <form action="" method="post">
-
-
     <label for="name">Nome</label>
     <input value="<?php echo $product['name']; ?>" id="name" name="name" type="text" class="form-control mb-3">
 
